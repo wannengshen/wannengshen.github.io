@@ -1,0 +1,159 @@
+@font-face {
+  font-family: 'itcast';
+  src:  url('fonts/itcast.eot?uek446');
+  src:  url('fonts/itcast.eot?uek446#iefix') format('embedded-opentype'),
+    url('fonts/itcast.ttf?uek446') format('truetype'),
+    url('fonts/itcast.woff?uek446') format('woff'),
+    url('fonts/itcast.svg?uek446#itcast') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'itcast' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add2:before {
+  content: "\20";
+}
+.icon-arrow2:before {
+  content: "\e915";
+}
+.icon-back2:before {
+  content: "\e916";
+}
+.icon-cancle2:before {
+  content: "\e917";
+}
+.icon-cart2:before {
+  content: "\e918";
+}
+.icon-center2:before {
+  content: "\e919";
+}
+.icon-circle2:before {
+  content: "\e91a";
+}
+.icon-delete2:before {
+  content: "\e91b";
+}
+.icon-detail2 .path1:before {
+  content: "\e91c";
+  color: rgb(0, 0, 0);
+}
+.icon-detail2 .path2:before {
+  content: "\e91d";
+  margin-left: -0.94140625em;
+  color: rgb(62, 22, 22);
+}
+.icon-edit2:before {
+  content: "\e91e";
+}
+.icon-order2:before {
+  content: "\e91f";
+}
+.icon-phone2:before {
+  content: "\e920";
+}
+.icon-picture2:before {
+  content: "\e921";
+}
+.icon-plus2:before {
+  content: "\e922";
+}
+.icon-preview2:before {
+  content: "\e923";
+}
+.icon-share2:before {
+  content: "\e924";
+}
+.icon-staroff2:before {
+  content: "\e925";
+}
+.icon-starton2:before {
+  content: "\e926";
+}
+.icon-time2:before {
+  content: "\e927";
+}
+.icon-weixin2:before {
+  content: "\e928";
+}
+.icon-add:before {
+  content: "\61";
+}
+.icon-arrow:before {
+  content: "\e901";
+}
+.icon-back:before {
+  content: "\e902";
+}
+.icon-cancle:before {
+  content: "\e903";
+}
+.icon-cart:before {
+  content: "\e904";
+}
+.icon-center:before {
+  content: "\e905";
+}
+.icon-circle:before {
+  content: "\e906";
+}
+.icon-delete:before {
+  content: "\e907";
+}
+.icon-detail .path1:before {
+  content: "\e908";
+  color: rgb(0, 0, 0);
+}
+.icon-detail .path2:before {
+  content: "\e909";
+  margin-left: -0.94140625em;
+  color: rgb(62, 22, 22);
+}
+.icon-edit:before {
+  content: "\e90a";
+}
+.icon-order:before {
+  content: "\e90b";
+}
+.icon-phone:before {
+  content: "\e90c";
+}
+.icon-picture:before {
+  content: "\e90d";
+}
+.icon-plus:before {
+  content: "\e90e";
+}
+.icon-preview:before {
+  content: "\e90f";
+}
+.icon-share:before {
+  content: "\e910";
+}
+.icon-staroff:before {
+  content: "\e911";
+}
+.icon-starton:before {
+  content: "\e912";
+}
+.icon-time:before {
+  content: "\e913";
+}
+.icon-weixin:before {
+  content: "\e914";
+}
+

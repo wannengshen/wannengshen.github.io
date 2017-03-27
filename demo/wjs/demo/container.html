@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .container {
+        height: 200px;
+        background-color: #f40;
+        margin: 0px auto;
+    }
+    /*如果屏幕大于1200px .container的宽度 1170px*/
+    /*条件只能写判断屏幕的宽度 高度*/
+    /*min-width判断屏幕宽度大于后面的值*/
+    /*max-width判断屏幕宽度小于后面的值*/
+    
+    @media (min-width:768px) {
+        .container {
+            width: 750px;         
+        }
+    }
+    
+    @media (min-width:992px) {
+        .container {
+            width: 970px;
+        }
+    }
+    
+    @media (min-width:1200px) {
+        .container {
+            width: 1170px;
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <div class="container"></div>
+</body>
+
+</html>

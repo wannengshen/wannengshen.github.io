@@ -1,0 +1,78 @@
+1.语速过快
+2.普通话不标准
+3.逻辑不太清晰
+4.没有突出重点
+
+1.知道移动web的两种开发方式 优缺点 区别
+2.Bootstrap了解 ： Bootstrap是现在前端最流行的一个框架(界面工具集) 他提供了很多组件方便我们使用 让web开发更简单更快捷
+jquery :  jquery是当下最流行的JS框架 他为我们提供了一套便捷的DOM操作方式
+让JS操作更简单
+3.搭建一个项目  特别是lib 放第三方的框架
+4.浏览器兼容模式(解决IE兼容性问题让IE浏览器使用最新渲染引擎渲染页面) 和 视口
+(浏览器可视窗口 让PC端的页面在移动端展示的时候不缩放)
+5.学习Bootstrap里面的基本一些组件和全局CSS样式 和JS插件的使用
+6.如何熟练使用栅格系统和container(知道里面的原理)
+7.学会字体图标的生成(https://icomoon.io)和使用(直接使用图标对应的类名)
+8.会简单的自定义Bootstrap(就是抄Bootsrap里面bootstrap.css文件里面的类样式)
+按钮样式生成(http://blog.koalite.com/bbg/)
+去bootstrap.css直接ctrl+f搜索这个类名 把所有代码拷贝出来
+
+
+1.轮播图 要实现大图小图切换（因为移动端的设备比较小图片也比较小）
+2.在什么时候使用大图 什么时候使用小图
+判断屏幕宽度大于768px显示大图 小于768px显示小图
+3.如果是大图设置背景图 
+如果是小图设置的是图片标签
+第一个在JS里面固定写一个数组
+var largeimg = ['img/datu.jpg','img/datu.jpg','img/datu.jpg','img/datu.jpg']
+var smallimg = ['img/datu.jpg','img/datu.jpg','img/datu.jpg','img/datu.jpg']
+
+
+1.解决了轮播图插入高度会缩小的问题
+把图片标签替换为背景然后让背景图定为居中
+2.判断了大屏幕和小屏分别处理了图片 大屏用背景 小屏用图片标签
+把大图小图的路径放到了.item自己的身上 用了自己定义属性 分别获取大小图对应的属性来设置
+3.解决个人中心小屏幕掉下来的问题 在小屏幕隐藏hidden-sm
+4.解决了topbar在小屏和超小屏的时候也要隐藏
+5.利用栅格系统实现2行3列 和3行2列的切换
+6.学习了媒体对象这个组件的使用
+7.学习了一个左浮动和有浮动 pull-left pull-right
+8.学习使用JS插件标签页 
+9.淡入淡出效果 fade in 
+10.使用了面板 是让面板里面的第一个div右浮动  第二个div距离右边和第一个div宽度一个margin-right（实现面板宽度发生变化的时候
+右边不变 只变左边）
+11.两个小半圆定位 一个在顶部一个在底部
+
+
+今天使用到的组件
+
+
+轮播图 》 JS插件 》 carousel
+媒体对象 》 组件 》 媒体对象
+hidden-sm hidden-xs 响应式工具 》全局CSS样式 》 响应式工具
+快速浮动pull-left pull-right  》 全局CSS样式 》 辅助类
+tab栏标签页 》 JS插件 》 标签页
+面板panel-default   》 组件 》 面板
+工具提示   》 JS插件 》 工具提示
+
+1.导航条 高度问题 margin-bottom
+2.轮播图 
+3.hidden-* 隐藏类
+4..row  文字比较多 盒子也比较多的时候 可以考虑用
+
+
+1.新闻版块 里面的列偏移 
+2.合作伙伴解决行内块之间的缝隙 父元素font-size:0
+3.计算宽度 calc(100%/9)
+4.3个移动端的滑动事件 touchstart touchmove touchend 
+touches  changedTouches 都表示的是触摸的手指对象数组
+5.touches里面有触摸的位置X轴 Y轴 
+6.Bootstrap轮播图插件提供的切换到上一张下一张的方法
+.carousel('prev') .carousel('next')
+7.让一个盒子支持局部滚动条 父盒子设置overflow-x:scroll 子元素的宽度要大于父元素
+8.移动针对具体一些设备的特殊处理 （媒体查询专门针对这种屏幕宽度）
+9.介绍了一下Less
+
+1.Less语法还没听懂
+2.移动端事件有点模糊   event(模糊)
+3.媒体查询
