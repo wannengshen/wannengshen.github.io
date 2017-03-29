@@ -79,50 +79,72 @@ body{
 }
 /*第一屏*/
 .section1{
-    background-color: #87b0a5;
+    background:url(../images/a.jpg) no-repeat center 0px;
+}
+
+.section1 .sec1_img{
+    position: relative;
+    float: left;
+    
 }
 .section1 .sec1_img img{
     position: absolute;
-    left: 50%;
-    top:15%;
-    margin-left: -100px;
     display: block;
-    width: 200px;
-    height: 200px;
-    border-radius: 100px;
+    width: 250px;
+    height: 350px;
+    top: -100px;
+    left: 100px;
+    border: 3px solid rgba(255,255,255,0.68);
+    margin-left: 10px;
 }
-.section1 p ,h1{
+
+.section1 .jieshao{
+    float: left;
     position: relative;
+    left: 35%;
 }
-.section1 h1{
-  width: 400px;
+
+.section1 .jieshao h2 {
+    font-size: 1.2em;
+    color: #000;
+    right: -10px;
+    top: -10px;
+    background: #F3E000;
+    display: inline-block;
+    padding: .5em 1.5em;
+    position: relative;
+    border-radius: 10%;
 }
-.section1 h1{
+.section1 .jieshao h2:before {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: '';
+    bottom: -9px;
+    left: 12px;
+    border-style: solid;
+    border-width: 10px 10px 0 10px;
+    border-color: #F3E000 transparent transparent transparent;
+}
+.section1 .jieshao h1{
     font-size: 25px;
     text-align: center;
-    left:50%;
-    top:10%;
     opacity: 0;
-    margin-left: -200px;
+    color: #c00;
 }
-.section1 .borderP{
+.section1 .jieshao .borderP{
     width:0;
     height: 2px;
     background-color: #000;
-    left: 50%;
-    margin-left: -150px;
-    top: 12%;
+    margin-top: 10px;
 }
-.section1 .nameP{
-    position: absolute;
-    left:48%;
-    top: 70%;
-    font-size: 20px;
+.section1 .jieshao .nameP{
+    font-size: 40px;
+    top: -20px;
+    color: #ccc;
+    margin-bottom: 10px;
 }
 .section1 .textP{
-    position: absolute;
-    left:47%;
-    top: 76%;
     color: red;
 }
 /*第二屏*/
