@@ -90,10 +90,10 @@ body{
 .section1 .sec1_img img{
     position: absolute;
     display: block;
-    width: 250px;
-    height: 350px;
+    width: 180px;
+    height: 240px;
     top: -100px;
-    left: 100px;
+    left: 200px;
     border: 3px solid rgba(255,255,255,0.68);
     margin-left: 10px;
 }
@@ -310,13 +310,13 @@ body{
 
 .slide-text{
     float: right;
-    margin-right: 35%;
-    margin-top: 15%;
-}
-.slide1 .slide-text{
     margin-right: 25%;
     margin-top: 20%;
 }
+/*.slide .slide4 .slide-text{
+    margin-right: 20%;
+    margin-top: 20%;
+}*/
 .section4{
     background:url(../images/bg.jpg) repeat;
     /*background-color: #10c3d0;*/
